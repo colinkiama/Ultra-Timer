@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltraTimer", "UltraTimer\UltraTimer.csproj", "{7C9085CD-F10F-47E5-81DE-D4D88FE5B94B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{C993208F-2EA7-4CB8-8AF8-330B068E4463}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,26 @@ Global
 		{7C9085CD-F10F-47E5-81DE-D4D88FE5B94B}.Release|x64.Build.0 = Release|x64
 		{7C9085CD-F10F-47E5-81DE-D4D88FE5B94B}.Release|x86.ActiveCfg = Release|x86
 		{7C9085CD-F10F-47E5-81DE-D4D88FE5B94B}.Release|x86.Build.0 = Release|x86
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Debug|ARM.Build.0 = Debug|ARM
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Debug|ARM.Deploy.0 = Debug|ARM
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Debug|x64.ActiveCfg = Debug|x64
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Debug|x64.Build.0 = Debug|x64
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Debug|x64.Deploy.0 = Debug|x64
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Debug|x86.ActiveCfg = Debug|x86
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Debug|x86.Build.0 = Debug|x86
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Debug|x86.Deploy.0 = Debug|x86
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Release|Any CPU.ActiveCfg = Release|x86
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Release|ARM.ActiveCfg = Release|ARM
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Release|ARM.Build.0 = Release|ARM
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Release|ARM.Deploy.0 = Release|ARM
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Release|x64.ActiveCfg = Release|x64
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Release|x64.Build.0 = Release|x64
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Release|x64.Deploy.0 = Release|x64
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Release|x86.ActiveCfg = Release|x86
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Release|x86.Build.0 = Release|x86
+		{C993208F-2EA7-4CB8-8AF8-330B068E4463}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
