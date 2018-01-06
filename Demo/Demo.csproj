@@ -131,6 +131,12 @@
       <Version>6.0.4</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UltraTimer\UltraTimer.csproj">
+      <Project>{7C9085CD-F10F-47E5-81DE-D4D88FE5B94B}</Project>
+      <Name>UltraTimer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

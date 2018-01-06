@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>UltraTimer.ColinKiama</id>
+    <title>Ultra Timer</title>
+    <summary>Full featured timer class for UWP.</summary>
+    <version>1.0.0</version>
+    <authors>colinkiama</authors>
+    <owners>colinkiama</owners>
+    <licenseUrl>https://raw.githubusercontent.com/colinkiama/Ultra-Timer/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/colinkiama/Ultra-Timer</projectUrl>
+    <iconUrl>https://i.imgur.com/KGcP3Iv.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Full featured timer class for UWP.</description>
+    <releaseNotes>First Release.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>ultra timer ultratimer uwp windows 10 class runtime component universal</tags>
+  </metadata>
+  <files>
+    <!-- WinMd and IntelliSense -->
+  <file src=".\UltraTimer\bin\Release\UltraTimer.winmd" target="lib\uap10.0"/>
+  <file src=".\UltraTimer\bin\Release\UltraTimer.xml" target="lib\uap10.0"/>
+
+<!-- XAML controls -->
+
+<!-- DLLs and resources -->
+
+
+<file src=".\UltraTimer\bin\x86\Release\UltraTimer.pri" target="runtimes\win10-x86\native"/>
+<file src=".\UltraTimer\bin\x64\Release\UltraTimer.pri" target="runtimes\win10-x64\native"/>
+<file src=".\UltraTimer\bin\ARM\Release\UltraTimer.pri" target="runtimes\win10-arm\native"/>
+
+
+
+
+<!-- .targets -->
+<file src="UltraTimer.targets" target="build\native"/>
+
+
+  </files>
+</package>
