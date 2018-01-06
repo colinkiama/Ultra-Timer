@@ -57,7 +57,7 @@ namespace UltraTimer
         #region Constructors
 
         /// <summary>
-        /// Create a new timer. Its default interval is 100 milliseconds and its default duration is 30 seconds.
+        /// Creates a new timer. Its default interval is 100 milliseconds and its default duration is 30 seconds.
         /// </summary>
         public Timer()
         {
@@ -69,7 +69,7 @@ namespace UltraTimer
 
 
         /// <summary>
-        ///  Create a new timer. Its default interval is 100 milliseconds.
+        ///  Creates a new timer. Its default interval is 100 milliseconds.
         /// </summary>
         /// <param name="duration"></param>
         public Timer(TimeSpan duration)
@@ -81,7 +81,7 @@ namespace UltraTimer
         }
 
         /// <summary>
-        /// Create a new timer.
+        /// Creates a new timer.
         /// </summary>
         /// <param name="duration"></param>
         /// <param name="interval"></param>
@@ -135,6 +135,10 @@ namespace UltraTimer
         }
 
 
+        /// <summary>
+        /// <para>Changes the value of TimeLeft to the current value of duration.</para>
+        /// <para>Note: The timer does not stop running when this is used. In order for the timer to stop running, you must pause the timer first.</para>
+        /// </summary>
         public void ResetTimer()
         {
             _descendingTime = Duration;
@@ -174,19 +178,31 @@ namespace UltraTimer
         #region Events
 
         /// <summary>
-        /// Event that runs when the timer has finished.
+        /// Event that occurs when the timer has finished.
         /// </summary>
         public event TimerEventHandler TimerEnded;
 
-
+        /// <summary>
+        /// Event that occurs when the an interval has passed.
+        /// </summary>
         public event TimerEventHandler TimerTicked;
 
+        /// <summary>
+        /// Event that occurs when the timer has been reset.
+        /// </summary>
         public event TimerEventHandler TimerReset;
 
+        /// <summary>
+        /// Event that occurs when the timer has been paused.
+        /// </summary>
         public event TimerEventHandler TimerPaused;
 
+        /// <summary>
+        /// Event that occurs when the timer starts.
+        /// </summary>
         public event TimerEventHandler TimerStarted;
 
+        
         public event PropertyChangedEventHandler PropertyChanged;
         #endregion
 
@@ -249,6 +265,10 @@ namespace UltraTimer
             ended = isEnded;
         }
         private bool ended;
+
+        /// <summary>
+        /// Whether or not the timer has ended.
+        /// </summary>
         public bool TimerEnded
         {
             get { return ended; }
